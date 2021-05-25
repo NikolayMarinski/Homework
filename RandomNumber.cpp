@@ -16,7 +16,7 @@ int main()//start of the body
 
 
     srand(time(0)); //seed random number generator
-    int num = rand() % m + n; // random number between 1 and 100
+    int num = rand() % m + n; // random number between n and m
 
     int guess = 0;//introducing guess
     int counter = 0;
